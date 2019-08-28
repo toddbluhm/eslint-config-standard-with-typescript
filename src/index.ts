@@ -45,6 +45,7 @@ export = {
         // New Typescript-only rules:
         '@typescript-eslint/adjacent-overload-signatures': 'error',
         '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+        '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/consistent-type-assertions': [
           'error',
           {
@@ -52,7 +53,6 @@ export = {
             objectLiteralTypeAssertions: 'never'
           }
         ],
-        '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/explicit-function-return-type': ['error', {
           allowExpressions: true,
           allowHigherOrderFunctions: true,
